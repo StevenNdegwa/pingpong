@@ -22,4 +22,4 @@ $(document).ready(function() {
          theSeries.forEach(function(e) {
            // console.log(theSeries);
            $("#result").append($("<li>").html(e));
-         })
+         }) 
