@@ -57,7 +57,7 @@ $(document).ready(function() {
          })
 
 
-          
+
 
 #### sample output
 
@@ -95,4 +95,4 @@ The site can be viewed from here [ping pong blog](https://muriithiderro.github.i
 ### copyright
 *The site and materials can be accessed by the public freely*
 
-Copyright (c) 2018 **[Derrick](https://github.com/muriithiderro)**
+Copyright (c) 2018 **[Steven](https://github.com/stevenndegwa)**
