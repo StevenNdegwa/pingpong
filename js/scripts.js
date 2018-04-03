@@ -14,14 +14,12 @@ function pingpong(num) {
   };
 };
 $(document).ready(function() {
-      $("#pingpong").submit(function(event) {
-          event.preventDefault();
-          var result = parseInt($("#inputNumber").val())
-          pingpong(result);
-          // console.log(theSeries);
-          theSeries.forEach(function(e) {
-            // console.log(theSeries);
-            $("#result").append($("<li>").html(e));
-          })
-        });
-      });
+     $("#pingpong").submit(function(event) {
+         event.preventDefault();
+         var result = parseInt($("#inputNumber").val())
+         pingpong(result);
+         // console.log(theSeries);
+         theSeries.forEach(function(e) {
+           // console.log(theSeries);
+           $("#result").append($("<li>").html(e));
+         })
